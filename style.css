@@ -186,3 +186,16 @@ input, button {
   line-height: 1.4;
   max-width: 500px;
 }
+
+.contact {
+  background: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.contact a {
+  color: #c1272d;
+  text-decoration: none;
+  font-weight: bold;
+}
