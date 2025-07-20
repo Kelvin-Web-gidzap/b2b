@@ -2,41 +2,49 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>My Car Parts — B2B Платформа</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>My Car Parts — Оптовая B2B платформа</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Оптовая платформа My Car Parts</h1>
-    <p>Личный кабинет, отчеты, печатные формы, экспертная поддержка</p>
-    <a href="#form" class="btn">Запросить доступ</a>
+    <h1>Платформа для оптовых покупателей автозапчастей</h1>
+    <p>Контрактные детали. Оплата при получении. Сервис, которому доверяют.</p>
+    <a href="#form" class="btn">Получить доступ к Личному Кабинету</a>
   </header>
 
   <section>
-    <h2>Что вы получаете</h2>
-    <ul>
-      <li>✅ Оптовые цены</li>
-      <li>✅ Удобный интерфейс</li>
-      <li>✅ Поддержка по запросам</li>
-      <li>✅ Графики и отчёты по заказам</li>
-    </ul>
+    <h2>Ваши преимущества с нами</h2>
+    <div class="grid">
+      <div class="card">🔑 <strong>Личный кабинет</strong><br>Контроль заказов, заявки, графики и печатные формы</div>
+      <div class="card">📦 <strong>Ежедневные отправки</strong><br>Оперативная логистика по всей стране</div>
+      <div class="card">📊 <strong>Отчётность</strong><br>Графики и отчёты по каждому заказу</div>
+      <div class="card">📉 <strong>Оптовые цены</strong><br>Скидки и спецусловия для постоянных партнёров</div>
+      <div class="card">🤝 <strong>Поддержка</strong><br>Помощь экспертов при подборе и консультации</div>
+      <div class="card">🖨 <strong>Печатные формы</strong><br>Накладные, счета, спецификации к заказам</div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Присоединяйтесь к профессионалам</h2>
+    <p>Ведите заказы в удобном интерфейсе, получайте доступ к оптовым ценам, и всегда будьте в курсе статуса ваших заявок.</p>
+    <a href="#form" class="btn">Стать партнёром</a>
   </section>
 
   <section id="form">
-    <h2>Форма заявки</h2>
+    <h2>Запрос доступа</h2>
     <form action="https://formspree.io/f/mnqepvjg" method="POST">
-      <input type="text" name="company" placeholder="Название компании" required>
-      <input type="text" name="name" placeholder="Контактное лицо" required>
-      <input type="tel" name="phone" placeholder="Телефон" required>
-      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="company" placeholder="Название компании" required />
+      <input type="text" name="name" placeholder="Контактное лицо" required />
+      <input type="tel" name="phone" placeholder="Телефон" required />
+      <input type="email" name="email" placeholder="Email" required />
       <button type="submit">Отправить заявку</button>
     </form>
   </section>
 
   <footer>
-    <p>© 2025 My Car Parts</p>
+    <p>© 2025 My Car Parts — Надёжный поставщик контрактных автозапчастей</p>
   </footer>
 </body>
 </html>
