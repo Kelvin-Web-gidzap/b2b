@@ -100,3 +100,36 @@ input, button {
   75% { transform: translateX(-300%); }
   100% { transform: translateX(0%); }
 }
+
+.workflow {
+  padding: 40px 20px;
+  background: #f2f2f2;
+  text-align: center;
+}
+.snake-steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.step {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  flex: 1 1 160px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  position: relative;
+}
+.step span {
+  display: inline-block;
+  background: #c1272d;
+  color: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
