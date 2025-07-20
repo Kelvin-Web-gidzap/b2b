@@ -133,3 +133,56 @@ input, button {
   font-weight: bold;
   margin-bottom: 10px;
 }
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+  align-items: center;
+  position: relative;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 50%;
+  width: 4px;
+  background: #c1272d;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+.timeline-step {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 90%;
+  max-width: 700px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.timeline-step:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.circle {
+  background: #c1272d;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  flex-shrink: 0;
+}
+.text {
+  font-size: 1rem;
+  line-height: 1.4;
+  max-width: 500px;
+}
