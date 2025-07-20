@@ -222,3 +222,13 @@ input, button {
 .whatsapp-float:hover {
   background: #1ebe5b;
 }
+
+.top-header {
+  background: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+.logo {
+  max-height: 60px;
+}
