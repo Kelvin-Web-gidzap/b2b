@@ -255,3 +255,50 @@ input, button {
 .nav-menu a:hover {
   color: #c1272d;
 }
+
+.top-header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.top-header .container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.logo {
+  max-height: 50px;
+}
+.menu-icon {
+  font-size: 26px;
+  cursor: pointer;
+  display: block;
+  z-index: 1001;
+}
+#menu-toggle {
+  display: none;
+}
+.sidebar-menu {
+  position: absolute;
+  top: 100%;
+  right: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  display: none;
+  flex-direction: column;
+  padding: 10px;
+}
+.sidebar-menu a {
+  color: #333;
+  text-decoration: none;
+  padding: 8px 0;
+  font-weight: 500;
+}
+#menu-toggle:checked + .menu-icon + .sidebar-menu {
+  display: flex;
+}
