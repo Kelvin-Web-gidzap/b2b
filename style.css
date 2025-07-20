@@ -66,3 +66,14 @@ input, button {
   border-radius: 6px;
   font-weight: bold;
 }
+
+.cta-light {
+  background: #fff6f6;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+.cta-light h2 {
+  color: #c1272d;
+}
